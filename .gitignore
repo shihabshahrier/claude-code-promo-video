@@ -1,0 +1,16 @@
+# secrets — never commit these
+.env
+.env.local
+
+# audio pipeline artifacts
+pipeline/venv/
+pipeline/build/
+pipeline/*.wav
+pipeline/.tmp/
+
+# renders
+*.mp4
+!example/*.mp4
+
+# macOS
+.DS_Store
