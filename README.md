@@ -101,9 +101,15 @@ cd pipeline
   directory`. Fix: copy Homebrew's `espeak-ng-data/*` into **both** the loader
   package dir and its `espeak-ng-data/` subdir — espeak looks in the package dir
   itself. `setup.sh` does this.
-- **OpenRouter has no usable TTS.** It's a text and multimodal gateway. If you
-  were planning to route voice through it, don't — that was an afternoon lost.
-  macOS `say` is too robotic, and the good system voices can't be scripted.
+- **Two voice options, pick deliberately.** Local (Kokoro-82M) is free, private
+  and unlimited. OpenRouter's `openai/gpt-audio` sounds better and costs about
+  **$0.09 per 95s narration** — see `pipeline/vo_gpt.py`. If you use the API:
+  audio output **requires** `stream: true` (a normal request 400s), the audio
+  arrives as base64 chunks you concatenate, and there is no `speed` parameter,
+  so an overlong line gets re-rendered with a pacing instruction rather than
+  stretched. Send an identical persona prompt with every line or the voice
+  drifts between takes.
+- **macOS `say` is too robotic** — and the good system voices can't be scripted.
 - **Never time-stretch a take to fit its slot.** Re-render it at a nudged speed
   instead. Stretching is exactly what makes synthetic voice sound synthetic.
 - **Spell for the phonemizer, not for humans.** `.tex` → `dot tek`,
