@@ -42,4 +42,4 @@ ASK CLAUDE CODE:
 
 Replace anything in `<angle brackets>`.
 
-Full write-up: <https://shihub.online/blog/make-promo-video-with-claude-code>
+Full write-up: <https://shihub.site/blog/make-promo-video-with-claude-code>

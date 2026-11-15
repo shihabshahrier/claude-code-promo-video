@@ -8,7 +8,7 @@ This is the exact process and the exact scripts behind the promo for
 [LetX](https://letx.app/), a collaborative LaTeX editor:
 
 ▶ **[Watch the result (30s)](https://youtube.com/shorts/CPx11OL0yMc)**
-📖 **[Read the full write-up, with interactive prompt builder](https://shihub.online/blog/make-promo-video-with-claude-code)**
+📖 **[Read the full write-up, with interactive prompt builder](https://shihub.site/blog/make-promo-video-with-claude-code)**
 
 ---
 
@@ -162,7 +162,7 @@ by that licence.
 
 ---
 
-Built by [Shihab Shahriar Antor](https://shihub.online) while making the launch
+Built by [Shihab Shahriar Antor](https://shihub.site) while making the launch
 video for [LetX](https://letx.app/) — a free collaborative LaTeX editor that runs
 in the browser and lets you drag an existing project straight in.
 

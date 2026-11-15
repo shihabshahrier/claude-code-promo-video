@@ -142,4 +142,4 @@ Rules I want applied:
 
 ---
 
-Full write-up: <https://shihub.online/blog/make-promo-video-with-claude-code>
+Full write-up: <https://shihub.site/blog/make-promo-video-with-claude-code>
